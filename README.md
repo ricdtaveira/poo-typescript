@@ -8,7 +8,7 @@ Repositório da Disciplina de POO INFO
 >
 
 
-## Instalação do Copilador Typescript
+## Instalação do Compilador Typescript
 >
 
 >
