@@ -2,16 +2,37 @@
 Repositório da Disciplina de POO INFO 
 
 
-## Compilador Typescript
+## Instalação do Node.js
+>
 
+>
+
+
+## Instalação do Copilador Typescript
+>
+
+>
+
+
+## Instalação do Vscode e suas extensôes
+>
+As extensões sugeridas para instalar no Vscode são:
+* Material Icon Theme
+* Mithril Emmet
+* Eslint
+* Better comments
+* GitLens
+* Tabnine
+>
+
+## Compilador Typescript
 > 
 Os navegadores não conseguem ler arquivos TypeScript, apenas JavaScript.
-O TypeScript Compiler (TSC) é uma ferramenta que permite que transformemos o código TypeScript em JavaScript.
-Podemos configurar o compilador TypeScript de três
-maneiras:
-1. Através da linha de comando, informando as configurações através de flags
-2. Através de um arquivo tsconfig.json ou jsconfig.json
-3. Executando tsc --init no Terminal. Ele irá criar os arquivos de configuração automaticamente.
+O TypeScript Compiler (TSC) transforma código TypeScript em JavaScript.
+Podemos configurar o compilador TypeScript de três maneiras:
+1. Executando o `tsc` na linha de comando e informando as configurações usando flags.
+2. Configurando um arquivo `tsconfig.json` ou `jsconfig.json`.
+3. O comando `tsc --init` executado no Terminal criará os arquivos de configuração automaticamente.
 > 
 
 ## Tipos de Dados primitivos do Typescript
