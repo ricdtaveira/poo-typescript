@@ -1,6 +1,19 @@
 # poo-typescript
 Repositório da Disciplina de POO INFO 
 
+
+## Compilador Typescript
+
+> 
+Os navegadores não conseguem ler arquivos TypeScript, apenas JavaScript.
+O TypeScript Compiler (TSC) é uma ferramenta que permite que transformemos o código TypeScript em JavaScript.
+Podemos configurar o compilador TypeScript de três
+maneiras:
+1. Através da linha de comando, informando as configurações através de flags
+2. Através de um arquivo tsconfig.json ou jsconfig.json
+3. Executando tsc --init no Terminal. Ele irá criar os arquivos de configuração automaticamente.
+> 
+
 ## Tipos de Dados primitivos do Typescript
 
 > Tipos de dados definem a representação binária associada a formatação, a representação de grandezas, os valores e operações de variaveis. Na linguagem Typescript é recomendável que seja atribuído um tipo a uma variável quando a mesma é definida com as palavras chave `const`, `let` e `var`.  
