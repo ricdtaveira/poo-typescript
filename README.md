@@ -1,20 +1,22 @@
 # poo-typescript
 Repositório da Disciplina de POO INFO 
 
+## Introdução
+>
+JavaScript é uma linguagem fracamente tipada. A linguagem Typescript possui mecanismos de tipagem forte que são transformadas em uma versão especifica do ECMA Script que é selecionada. Assim o Javascript gerado implementa uma tipagem forte que ajuda a diminuir possíveis erros de execução do código. Recursos do Paradigma Orientado a Objeto são implementados pela linguagem Typescript permitindo a criação de código robusto, modular e escalável. 
+A transformação de código TypeScript para versões anteriores do ECMAScript permite o seu uso por navegadores navegadores antigos.
+>
+
 
 ## Instalação do Node.js
 >
-
+A instalação do TypeScript esta vinculado à instalação do Node.js. 
 >
-
-
 ## Instalação do Compilador Typescript
 >
-
+Após a instalação do Node.js e do NPM o TypeScript pode ser instaladopor meio docomando `npm install -g typescript'. 
 >
-
-
-## Instalação do Vscode e suas extensôes
+## Instalação do Vscode e suas extensões
 >
 As extensões sugeridas para instalar no Vscode são:
 * Material Icon Theme
