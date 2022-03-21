@@ -3,7 +3,8 @@ Repositório da Disciplina de POO INFO
 
 ## Tipos de Dados primitivos do Typescript
 
-> Tipos de dados definem a representação binária associada a formatação, a representação de grandezas, os valores e operações de variaveis. Na linguagem Typescript é recomendável que sejaatribuído um tipo a uma variável quando a mesma é definida com as palavras chave `const`, `let` e `var`.  
+> Tipos de dados definem a representação binária associada a formatação, a representação de grandezas, os valores e operações de variaveis. Na linguagem Typescript é recomendável que seja atribuído um tipo a uma variável quando a mesma é definida com as palavras chave `const`, `let` e `var`.  
+Quando um tipo não é associado a uma variável na sua definição o compilador Typescript infere o tipo a partir do valor inicial atribuído a variável.  
 >
 
 | Tipo de Dado  | Descrição                                       | Exemplo      |
