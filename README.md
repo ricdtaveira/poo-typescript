@@ -18,10 +18,10 @@ A transformação de código TypeScript para versões anteriores do ECMAScript p
 >
 
 >
-Os links a seguir contêm tutoriais aplicados ao uso do Git: 
-** [git-guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html).
-** [gittutorial - A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
-** [Fluxo de trabalho de Gitflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
+Os links a seguir contêm tutoriais aplicavéis ao uso do Git: 
+* [git-guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html).
+* [gittutorial - A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
+* [Fluxo de trabalho de Gitflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
 >
 
 ## Instalação do Node.js
