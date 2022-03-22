@@ -7,6 +7,22 @@ JavaScript é uma linguagem fracamente tipada. A linguagem Typescript possui mec
 A transformação de código TypeScript para versões anteriores do ECMAScript permite o seu uso por navegadores navegadores antigos.
 >
 
+## Instalação do Git 
+> O Git é um software livre que implementa o controle de versionamento de forma local e de forma distribuída.
+>
+
+> Na forma local o `git` é instalado a partir de um download do link [Downloads](https://git-scm.com/downloads) 
+>
+
+> Na forma distribuída o git local pode integrar-se a um repositório na nuvem hospedado na nuvem.Os principais provedores de repositórios Git na nuvem são: [GitHub](https://github.com/), [GitBucket](https://bitbucket.org/product/) e [GitLab](https://about.gitlab.com/).
+>
+
+>
+Os links a seguir contêm tutoriais aplicados ao uso do Git: 
+** [git-guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html).
+** [gittutorial - A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
+** [Fluxo de trabalho de Gitflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
+>
 
 ## Instalação do Node.js
 >
@@ -38,21 +54,4 @@ Podemos configurar o compilador TypeScript de três maneiras:
 3. O comando `tsc --init` executado no Terminal criará os arquivos de configuração automaticamente.
 > 
 
-## Tipos de Dados primitivos do Typescript
-
-> Tipos de dados definem a representação binária associada a formatação, a representação de grandezas, os valores e operações de variaveis. Na linguagem Typescript é recomendável que seja atribuído um tipo a uma variável quando a mesma é definida com as palavras chave `const`, `let` e `var`.  
-Quando um tipo não é associado a uma variável na sua definição o compilador Typescript infere o tipo a partir do valor inicial atribuído a variável.  
->
-
-| Tipo de Dado  | Descrição                                       | Exemplo      |
-| ------------- |-------------------------------------------------|:------------:|
-| string        | Conjunto de caracteres que formam um texto.     | "INFO IFCE"  |   
-| number        | Valores numéricos.                              |              |
-| boolean       | Representa os valores verdadeiro e falso.       | true e false |  
-|               |                                                 |              |
-|               |                                                 |              |
-|               |                                                 |              |
-|               |                                                 |              |
-|               |                                                 |              |
-|               |                                                 |              |
-|               |                                                 |              |
+ 

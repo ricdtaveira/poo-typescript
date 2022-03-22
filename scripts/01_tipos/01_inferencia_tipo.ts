@@ -1,4 +1,5 @@
 // 
+// Inferência de Tipo.
 //
 
 let linguagem = "JavaScript";

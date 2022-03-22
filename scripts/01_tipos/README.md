@@ -7,7 +7,7 @@
 >
 
 >Diferente do JavaScript que permite a tipagem dinamica, o TypeScript associa um tipo a uma variável de duas formas: 
-1) Inderencia de Tipo. Nessa forma quando um valor é atribuido a uma variavel, esse tipo passa a ser o definido para a variavel.
+1) Inferência de Tipo. Nessa forma quando um valor é atribuido a uma variavel, esse tipo passa a ser o definido para a variavel.
 > 
 ```
 let messagem = 'Hello world';
