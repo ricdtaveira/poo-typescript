@@ -10,15 +10,16 @@ A transformação de código TypeScript para versões anteriores do ECMAScript p
 
 ## Instalação do Node.js
 >
-A instalação do TypeScript esta vinculado à instalação do Node.js. No link [Downloads](https://nodejs.org/en/download/) é possivel baixar e nstalar a versão apropriada do Node.js aos principais sistemas operacionais.
+A instalação do TypeScript requer apropriada instalação do Node.js. No link [Downloads](https://nodejs.org/en/download/) é possivel baixar e instalar a versão apropriada do Node.js aplicada aos principais sistemas operacionais.
 >
 ## Instalação do Compilador Typescript
 >
-Após a instalação do Node.js e do NPM o TypeScript pode ser instaladopor meio docomando `npm install -g typescript`. 
+Após a instalação do Node.js e do NPM o TypeScript pode ser instalado usando o comando `npm install -g typescript`. 
 >
-## Instalação do Vscode e suas extensões
+## Configurações de extensões do Vscode
 >
-As extensões sugeridas para instalar no Vscode são:
+Extensões são plugins da IDE VsCode que implementam funcionalidades específicas que tornam o VSCode mais produtivo. 
+As extensões sugeridas abaixo ajudam a melhorar a usabilidade do Vscode:
 * Material Icon Theme
 * Mithril Emmet
 * Eslint

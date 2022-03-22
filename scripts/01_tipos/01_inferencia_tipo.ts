@@ -2,16 +2,15 @@
 //
 
 let linguagem = "JavaScript";
-
 console.log(linguagem);
 
-// linguagem = 2015;
+// 
+let numero= 123;
+console.log(typeof linguagem);
 
-// console.log(linguagem.toFixed());
-console.log(linguagem.toUpperCase());
+//
+const dadosCliente = [1, "Ricardo Taveira", new Date(2022, 3,22)];
+console.log(typeof dadosCliente);
 
-const usuarioInfo = [1, "Rafael", new Date()];
 
-usuarioInfo.push(2);
-usuarioInfo.push("Anthony");
-usuarioInfo.push(new Date(2021, 1, 1));
+ 
