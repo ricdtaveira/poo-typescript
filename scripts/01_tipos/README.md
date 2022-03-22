@@ -1,4 +1,4 @@
-#Tipos
+# Tipos
 
 > O uso de tipos em variaveis definem a forma como os seus valores serão representados, armazenados na memória e as operações possíveis com essas variáveis.
 >
@@ -26,7 +26,7 @@ let numero: number = 1200;
 console.log(typeof numero);
 ```
 
-##String 
+## string 
 >
 O tipo string define uma cadeia de caracteres. Na sua definição a cadeia de caracteres pode estar envolvida por aspas duplas ou aspas simples.
 >
@@ -37,7 +37,7 @@ let aviso : string = "Hoje vai chover !";
 console.log(aviso);
 ```
 
-##number
+## number
 >
 O Tipo number define uma representação binária capaz de armazenar valores numéricos a variaveis. 
 >
@@ -48,7 +48,7 @@ let aviso : string = "Hoje vai chover !";
 console.log(aviso);
 ```
 
-##Union Type
+## union type
 >
 
 >
@@ -59,7 +59,7 @@ let aviso : string = "Hoje vai chover !";
 console.log(aviso);
 ```
 
-##Boolean
+## boolean
 >
 
 >
@@ -69,9 +69,9 @@ console.log(mensagem);
 let aviso : string = "Hoje vai chover !"; 
 console.log(aviso);
 ```
-##Array
+## array
 >
-
+Um Array é um tipo que define uma coleção de valores que podem pertencer a um único tipo ou não. 
 >
 ```
 let messagem: string = 'Hello world';
@@ -80,17 +80,17 @@ let aviso : string = "Hoje vai chover !";
 console.log(
 ```  
 
-##Tuple
+## tuple
+>
+Uma Tupla define uma variavel com um conjunto de valores limitados.  
+>
+
+## object
 >
 
 >
 
-##Object
->
-
->
-
-##Enum
+## enum
 >
 
 >
