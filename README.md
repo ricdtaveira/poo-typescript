@@ -14,7 +14,7 @@ A transformação de código TypeScript para versões anteriores do ECMAScript p
 > Na forma local o `git` é instalado a partir de um download do link [Downloads](https://git-scm.com/downloads) 
 >
 
-> Na forma distribuída o git local pode integrar-se a um repositório na nuvem hospedado na nuvem.Os principais provedores de repositórios Git na nuvem são: [GitHub](https://github.com/), [GitBucket](https://bitbucket.org/product/) e [GitLab](https://about.gitlab.com/).
+> Na forma distribuída o git local pode integrar-se a um repositório hospedado na nuvem.Os principais provedores de repositórios Git na nuvem são: [GitHub](https://github.com/), [GitBucket](https://bitbucket.org/product/) e [GitLab](https://about.gitlab.com/).
 >
 
 >
@@ -26,15 +26,29 @@ Os links a seguir contêm tutoriais aplicavéis ao uso do Git:
 
 ## Instalação do Node.js
 >
-A instalação do TypeScript requer apropriada instalação do Node.js. No link [Downloads](https://nodejs.org/en/download/) é possivel baixar e instalar a versão apropriada do Node.js aplicada aos principais sistemas operacionais.
+O uso do TypeScript requer a instalação do Node.js. 
+>
+>
+No link [Downloads](https://nodejs.org/en/download/) é possivel baixar e instalar a versão apropriada do Node.js aplicada aos principais sistemas operacionais.
 >
 ## Instalação do Compilador Typescript
 >
-Após a instalação do Node.js e do NPM o TypeScript pode ser instalado usando o comando `npm install -g typescript`. 
+Após a instalação do Node.js e do NPM o TypeScript poderá ser instalado.
 >
-## Configurações de extensões do Vscode
 >
-Extensões são plugins da IDE VsCode que implementam funcionalidades específicas que tornam o VSCode mais produtivo. 
+ O comando `npm install -g typescript` executa o npm para nstalar o TypeScript de forma global. Ou seja, o TypeScript estará disponível para uso em qualquer projeto.  
+>
+## Instalação e configurações do Vscode
+>
+O VsCode é uma IDE aplicada a edição de programas fontes de várias linguagens de programação.
+>
+>
+Uma característica do VsCode é a possibilidade de incorporar funcionalidades desenvolvidas por terceiros. Essa funcionalidades funcionam como plugins e são chamadas de extensões.
+>
+>
+As funcionalidades implementadas nas extensões têm o objetivo de incrementar a produtividade do programador que a usa. 
+>
+>
 As extensões sugeridas abaixo ajudam a melhorar a usabilidade do Vscode:
 * Material Icon Theme
 * Mithril Emmet
