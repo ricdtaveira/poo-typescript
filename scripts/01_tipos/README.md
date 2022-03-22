@@ -4,7 +4,9 @@
 >
 
 >A característica principal da linguagem TypeScript é o uso da tipagem forte aplicada a suas variaáveis. Definido o tipo a uma variavel, não será possível atribuir um valor de tipo diferente do que a definiu. 
-Diferente do JavaScript que permite a tipagem dinamica, o TypeScript associa um tipo a uma variável de duas formas: 
+>
+
+>Diferente do JavaScript que permite a tipagem dinamica, o TypeScript associa um tipo a uma variável de duas formas: 
 1) Inderencia de Tipo. Nessa forma quando um valor é atribuido a uma variavel, esse tipo passa a ser o definido para a variavel.
 > 
 ```
