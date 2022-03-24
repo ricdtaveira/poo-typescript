@@ -10,19 +10,17 @@
 1) Inferência de Tipo. Nessa forma quando um valor é atribuido a uma variavel, esse tipo passa a ser o definido para a variavel.
 > 
 ```
-let messagem = 'Hello world';
+let mensagem = 'Hello world';
 console.log(typeof mensagem);
 let numero = 1200;
 console.log(typeof numero);
-let numero = 1200;
-
-```
+ ```
 
 
 >2) Tipo definido explicitamente. Nessa forma, a declaração da variavel é acompanhada por um nome de tipo. 
 >
 ```
-let messagem: string = 'Hello world';
+let mensagem: string = 'Hello world';
 console.log(typeof mensagem);
 let numero: number = 1200;
 console.log(typeof numero);
