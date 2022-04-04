@@ -2,7 +2,9 @@
 //
 //
 
-class Aluno {
+// O export será usado para permitir que o código da classe Aluno seja usado por outro arquivo
+// TypeScript
+export class Aluno {
     /* Atributos */
     nomeDoAluno: string;
     cpf: string;

@@ -11,7 +11,9 @@
 // Protected: esse modificador é parecido com o private. Porém uma outra classe pode acessar 
 //            atributos ou métodos protected se a mesma pertencer a uma hierarquia de Herança.
 
-class Professor {
+// export será usado para permitir que um outro fonte TypeScript acesse o o código da 
+// Classe Professor
+export class Professor {
 
     private nome: string;
     private email: string;

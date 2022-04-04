@@ -13,7 +13,7 @@ console.log(mostrarMensagem({ url: "https://www.ifce.edu.br" }));
 // definição de uma variavel que recebe uma função
 // O tipo retornado pela função é um union type
 // Poderetornar um numero, uma data ou um objeto 
-const show = (codigo) => {
+var show = function (codigo) {
     // return new Date(); // retorna um Date
     // return codigo;     // reorna um numero
     return { linguagem: "TypeScript" }; // retorna um objeto no formato JSON

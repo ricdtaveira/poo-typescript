@@ -3,13 +3,14 @@
 // Um Prodimento é uma função que não retorna nemuma valor ou objeto.
 // Apenas executa o código e utiliza os paramettros de entrada.
 //
-function enviarEmail(para, assunto = "Sem assunto", // o parametro assunto tem o seu valor pré-definido
+function enviarEmail(para, assunto, // o parametro assunto tem o seu valor pré-definido
 remetente // A interrogação define o parametro remetente como opcional
 ) {
+    if (assunto === void 0) { assunto = "Sem assunto"; }
     console.log({
-        para,
-        assunto,
-        remetente
+        para: para,
+        assunto: assunto,
+        remetente: remetente
     });
 }
 // Chamada do procedimento com um parametro

@@ -3,7 +3,7 @@
 // Union type é uma forma de associar a uma variavel mais de um tipo.
 //
 // define chave pix com tipo string ou number
-let chavePix;
+var chavePix;
 chavePix = "josemaria@ifce.edu.br";
 console.log(chavePix);
 console.log(typeof chavePix);
