@@ -4,7 +4,7 @@
 Herança é um dos Pilares da Programação Orientada a Objeto. 
 >
 > 
-Herança é uma funcionalidade implementada em Linguagens Orientadas a Objeto cujo principal objetivo é prover um mecanismo de reaproveitamento de código usando o conceito de Herança.
+É uma funcionalidade implementada em Linguagens Orientadas a Objeto cujo principal objetivo é prover um mecanismo de reaproveitamento de código usando o conceito de Herança.
 >
 
 >

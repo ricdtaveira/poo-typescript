@@ -5,7 +5,9 @@
 // O export será usado para permitir que o código da classe Aluno seja usado por outro arquivo
 // TypeScript
 export class Aluno {
-    /* Atributos */
+
+    // Atributos com visibilidade publica. 
+    // Não é necessário explicitar a palavra public
     nomeDoAluno: string;
     cpf: string;
     dataNascimento: Date;
@@ -44,6 +46,14 @@ export class Aluno {
    
     setnomedoAluno(nomeDoAluno: string): void {
         this.nomeDoAluno = nomeDoAluno;
+    }
+
+    setcpf(cpf: string): void {
+        this.cpf = cpf;
+    } 
+
+    setDataNascimento(dataNascimento: Date) : void {
+        this.dataNascimento = dataNascimento;
     }
 
 

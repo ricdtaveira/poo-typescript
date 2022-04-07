@@ -14,7 +14,7 @@
 // export será usado para permitir que um outro fonte TypeScript acesse o o código da 
 // Classe Professor
 export class Professor {
-
+    // private torna os atributos encapsulados
     private nome: string;
     private email: string;
     private dataNascimento: Date;
