@@ -34,6 +34,12 @@ var Aluno = /** @class */ (function () {
     Aluno.prototype.setnomedoAluno = function (nomeDoAluno) {
         this.nomeDoAluno = nomeDoAluno;
     };
+    Aluno.prototype.setcpf = function (cpf) {
+        this.cpf = cpf;
+    };
+    Aluno.prototype.setDataNascimento = function (dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    };
     return Aluno;
 }());
 exports.Aluno = Aluno;
