@@ -22,13 +22,13 @@ Classe é a forma usada na Programação Orientada a Objeto para descrever e rep
 Atributos são os dados componentes de uma classe. Os atributos possuem visibilidade `public`, `private` e `protected`. A visibilidade está alinhada ao conceito de Encapsulamento.  
 >
 >
-A visibilidade publica permite que os atributos e métodos de um objeto sejam acessados sem nenha restrição por outro objeto. 
+A visibilidade publica permite que os atributos e métodos de um objeto sejam acessados sem nenhuma restrição por outro objeto. 
 >
 >
 A visibilidade privada definida para atributos e métodos não permite que esses atributos e métodos sejam acessados diretamente por um outro objeto. Dessa forma o Encapsulamento é definido em uma classe.
 >
 >
-A visibilidade protegida é implementada em Herança entre classes. O acesso a atributos e métodos protegidos é restrito a classes que pertencem a hierrquia de herança.
+A visibilidade protegida é implementada em Herança entre classes. O acesso a atributos e métodos protegidos é restrito a classes que pertencem a hierarquia de herança.
 > `
 ## Métodos
 >
@@ -57,7 +57,7 @@ Método Construtor é responsável por instanciar na memória uma área onde sã
 
 ## Relacionamentos entre Classes
 >
-
+No escopo de um dominio de um problema podemos observar entidades que se relacionam com outras entidades por meio de funcionalidades ou de mecanismos estrurais. 
 >
 
 
