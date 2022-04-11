@@ -51,6 +51,10 @@ A execução de um programa em POO se dá pela criação de objetos e da execuç
 >
 Normalmente numa classe existem os Métodos Construtores, Métodos Acessores e Métodos Modificadores.
 >
+> 
+Método Construtor é responsável por instanciar na memória uma área onde são alocados os atributos do objeto.
+>
+
 ## Relacionamentos entre Classes
 >
 
