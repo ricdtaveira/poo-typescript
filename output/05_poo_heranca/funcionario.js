@@ -36,6 +36,11 @@ var Funcionario = /** @class */ (function () {
     Funcionario.prototype.setsalario = function (salario) {
         this.salario = salario;
     };
+    // Método 
+    Funcionario.prototype.imprimirCheckPagamento = function () {
+        var nomeCompleto = this.ultimoNome + ", " + this.primeiroNome;
+        return ("Pagamento= " + nomeCompleto + " R$ " + this.calcularPagamento());
+    };
     return Funcionario;
 }());
 exports.Funcionario = Funcionario;
