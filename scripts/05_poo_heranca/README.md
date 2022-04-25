@@ -34,4 +34,4 @@ Atributos e Métodos com visibilidade `protected` só podem ser acessados pelas 
 
 ## Diagrama de Classes representando uma Hierarquia de Herança
 
-![This is a alt text.](./figuras/heranca-por-diferenca-exemplo-01.png "Hierarquia de Herança.")
+![This is a alt text.](/figuras/heranca-por-diferenca-exemplo-01.png "Hierarquia de Herança.")
