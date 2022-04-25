@@ -28,3 +28,7 @@ Método são funcionalidades associadas a uma classe.
 >
 Método Construtor instancia na memoria os atributos de um objeto na memória.
 >
+>
+Atributos e Métodos com visibilidade `protected` só podem ser acessados pelas classes na mesma hirerarquia de Herança. É de encapsular os atributos e métodos das classes componentes de uma hierarquia de herança. 
+>
+

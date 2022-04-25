@@ -50,6 +50,18 @@ export abstract class Funcionario {
         this.salario = salario;
     }
 
+    // Método Abstrato
+    // Será resecrito na subclasse
+    abstract calcularPagamento(): number;
+
+    // Método 
+    imprimirCheckPagamento(): string {
+        let nomeCompleto = this.ultimoNome + ", " + this.primeiroNome
+        return ("Pagamento= " +  nomeCompleto + " R$ " + this.calcularPagamento());
+    }
+
+
+
     
 
     
