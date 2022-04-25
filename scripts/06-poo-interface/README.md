@@ -13,7 +13,7 @@ Um método definido em uma Interface possue apenas uma assinatura. Isto é, o no
 O uso de Interfaces é uma boa prática de Engenharia de Software na medida em que possilita a Abstração, Baixo Acoplamento e isola uma implementação de outra.
 >
 >
-O Encapsulamento também é viabilizado, visto que para o uso de uma implementação de uma Interface é necessário apenas saber a assinatura do método que é implementado. A implementação fica isolada de seu uso.
+O Encapsulamento também é viabilizado, visto que para o uso da implementação de uma Interface é necessário apenas saber a assinatura do método que é implementado. A implementação fica isolada de seu uso.
 >
 >
 Uma observação quanto a implementação de uma Interface é que todos os métodos que compõe o contrato devem ser implementados. A não observação dessa peculiaridade impossibilita a total compilação do código.
