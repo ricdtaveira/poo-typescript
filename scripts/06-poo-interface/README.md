@@ -1,7 +1,7 @@
 # Interface 
 
 > 
-Interface é uma funcionalidade implementada em Programação Orientada a Objeto cujo principal objetivo é prover um mecanismo onde um grupo de funcionalidades formam um contrato. 
+Interface é uma funcionalidade implementada em Programação Orientada a Objeto cujo principal objetivo é prover um mecanismo onde um grupo de funcionalidades forma um contrato. 
 >
 >
 As funcionalidades serão executadas por objetos cujos métodos implementam as funcionalidades definidas nas interfaces.
@@ -27,4 +27,4 @@ A Interface é uma das formas de Polimorfismo.
 
 ## Diagrama de Classes representando uma Interface
 
-![This is a alt text.](/figuras/interface.png "Interface.")
+!(/figuras/interface.png "Interface.")
