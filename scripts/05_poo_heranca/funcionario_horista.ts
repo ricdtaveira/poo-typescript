@@ -16,7 +16,7 @@ export class FuncionarioHorista extends Funcionario {
     }
 
     calcularPagamento(): number {
-        return (this.salario - (this.faltas * this.valorFalta));
+        return (this.salario * this.horasTrabalhadas);
     }
 
     

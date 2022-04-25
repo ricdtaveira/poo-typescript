@@ -51,7 +51,7 @@ export abstract class Funcionario {
     }
 
     // Método Abstrato
-    // Será resecrito na subclasse
+    // Será reescrito na subclasse
     abstract calcularPagamento(): number;
 
     // Método 
