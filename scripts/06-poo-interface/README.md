@@ -1,37 +1,32 @@
-# Herança
+# Interface 
 
 > 
-Herança é um dos Pilares da Programação Orientada a Objeto. 
+Interface é uma funcionalidade implementada em Linguagens Orientadas a Objeto cujo principal objetivo é prover um mecanismo onde um grupo de funcionalidades formam um contrato.  no qual serão executados por métodos em classes que implementam essas funcionalidades.
 >
+>
+As funcionalidades previstas no contrato serão executadas por métodos em classes que implementam o contrato.  
 > 
-É uma funcionalidade implementada em Linguagens Orientadas a Objeto cujo principal objetivo é prover um mecanismo de reaproveitamento de código usando o conceito de Herança.
+>
+Um método definido em uma Interface possue apenas uma assinatura. Isto é, o nome do método, o tipo que retorna e a relação dos parametros com seus tipos.
+>
+>
+O uso de Interfaces é uma boa prática de Engenharia de Software na medida em que possilita a Abstração, Baixo Acoplamento e isola uma implementação de outra.
 >
 
 >
-Classe Abstrata é uma classe que é usada especificamente para compor uma hierarquia de herança. Não é possível instanciar um objeto de uma classe abstrata.
->
->
-Super-Classe ou Classe mãe é a classe que será herdada pelas subclasses.
->
->
-Sub-Classe é a classe que além de seus atributos e métodos incorpora atributos e métodos de sua Super-Classe.
->
->
-Objeto é uma instancia de uma classe na memória. Pode existir vários objetos de determinada classe.
->
->
-Atributos definem características de uma classe. Atributos podem ser privados ou publicos.
->
->
-Método são funcionalidades associadas a uma classe.
->
->
-Método Construtor instancia na memoria os atributos de um objeto na memória.
->
->
-Atributos e Métodos com visibilidade `protected` só podem ser acessados pelas classes na mesma hirerarquia de Herança. É a palavra chave usada para encapsular os atributos e métodos das classes componentes de uma hierarquia de herança. 
+O Encapsulamento também é viabilizado visto que para o uso de uma implementação de uma Interface é necessário apenas saber a assinatura do método que é implementado. A implementação fica isolada de seu uso.
 >
 
-## Diagrama de Classes representando uma Hierarquia de Herança
+>
+Uma observação quanto a implementação de uma Interface é que todos os métodos que compõe o contrato devem ser implementados. A não observação dessa peculiaridade impossibilita a total compilação do código.
+>
+>
+A Interface é uma das formas de Polimorfismo.
+>
+ 
 
-![This is a alt text.](/figuras/heranca-por-diferenca-exemplo-01.png "Hierarquia de Herança.")
+ 
+
+## Diagrama de Classes representando uma Interface
+
+![This is a alt text.](/figuras/interface.png "Interface.")
