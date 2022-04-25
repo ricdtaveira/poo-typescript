@@ -33,7 +33,7 @@ var FuncionarioMensalista = /** @class */ (function (_super) {
         return _this;
     }
     FuncionarioMensalista.prototype.calcularPagamento = function () {
-        return (this.getsalario() - (this.faltas * this.valorFalta));
+        return (this.salario - (this.faltas * this.valorFalta));
     };
     return FuncionarioMensalista;
 }(funcionario_1.Funcionario));
