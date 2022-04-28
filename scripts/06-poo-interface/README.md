@@ -27,4 +27,4 @@ A Interface é uma das formas de Polimorfismo.
 
 ## Diagrama de Classes representando uma Interface
 
-!(/figuras/interface.png "Interface.")
+![This is a alt text.](/figuras/interface.png "Interface.")
