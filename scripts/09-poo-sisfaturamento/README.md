@@ -1,17 +1,16 @@
-# Modelo de Dominio Sistema de Faturamento  
+# Exemplo de um Modelo de Domínio  
 
 > 
-Um modelo de dominio representa as entidades envolvidas em uma aplicação de software.  
+Um modelo de domínio representa as entidades envolvidas em uma aplicação de software.  
 >
 
 >
-Um Diagrama de Classes representa um modelo de dominio onde classes e seus relacionamentos explicitam tanto o comportamento como o aspecto estrutural envolvolvendo as entidades do dominio do problema.   
+Um Diagrama de Classes representa um modelo de domínio onde classes e seus relacionamentos explicitam tanto o comportamento como o aspecto estrutural envolvolvendo as entidades.    
 >
-
 > 
 As conexões entre as classes representam relacionamentos de natureza funcional e estrutural. 
 >
-## Diagrama de Classes representando um Modelo de Dominio
+## Modelo de Domínio de um Sistema de Faturamento
 
 ![This is a alt text.](/figuras/sistema_faturamento.png "Modelo Dominio-Sistema Faturamento")
 
