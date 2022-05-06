@@ -5,7 +5,7 @@ Um modelo de domínio representa as entidades envolvidas em uma aplicação de s
 >
 
 >
-Um Diagrama de Classes representa um modelo de domínio onde classes e seus relacionamentos explicitam tanto o comportamento como o aspecto estrutural envolvolvendo as entidades.    
+Um Diagrama de Classes representa um modelo de domínio onde classes e seus relacionamentos explicitam tanto o comportamento como o aspecto estrutural envolvendo as entidades.    
 >
 > 
 As conexões entre as classes representam relacionamentos de natureza funcional e estrutural. 
