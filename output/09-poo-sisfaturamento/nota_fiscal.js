@@ -4,10 +4,10 @@ exports.NotaFiscal = void 0;
 var NotaFiscal = /** @class */ (function () {
     /* Métodos */
     /* Método Construtor */
-    function NotaFiscal(id, codigo, data, cliente) {
+    function NotaFiscal(id, codigo, cliente) {
         this.id = id;
         this.codigo = codigo;
-        this.data = data;
+        this.data = new Date();
         this.cliente = cliente;
         this.valorNota = 0.0;
         this.items = new Array();

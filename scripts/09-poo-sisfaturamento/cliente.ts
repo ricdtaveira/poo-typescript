@@ -7,11 +7,11 @@ import { TipoCliente } from "./tipo_cliente";
 export class Cliente {
 
     /* Atributos */
-    id: number;
-    nome: string;
-    codigo : number; 
-    cnpjcpf: string;
-    tipo: TipoCliente;    
+    private id: number;
+    private nome: string;
+    private codigo : number; 
+    private cnpjcpf: string;
+    private tipo: TipoCliente;    
 
     /* Métodos */
 

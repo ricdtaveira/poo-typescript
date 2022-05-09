@@ -19,8 +19,8 @@ export class ItemNotaFiscal {
     constructor (id : number, 
                  sequencial: number, 
                  quantidade: number, 
-                 produto: Produto, 
-                 valorUnitario: number) {
+                 produto: Produto
+                 ) {
         this.id = id;
         this.sequencial = sequencial;
         this.quantidade = quantidade;

@@ -4,7 +4,7 @@ exports.ItemNotaFiscal = void 0;
 var ItemNotaFiscal = /** @class */ (function () {
     /* Métodos */
     /* Método Construtor */
-    function ItemNotaFiscal(id, sequencial, quantidade, produto, valorUnitario) {
+    function ItemNotaFiscal(id, sequencial, quantidade, produto) {
         this.id = id;
         this.sequencial = sequencial;
         this.quantidade = quantidade;

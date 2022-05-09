@@ -17,14 +17,14 @@ export class NotaFiscal {
     /* Métodos */
 
     /* Método Construtor */    
-    constructor (id : number, codigo: number, data: Date, cliente : Cliente ) {
+    constructor (id : number, codigo: number, cliente : Cliente ) {
         this.id = id;
         this.codigo = codigo;
-        this.data = data;
+        this.data = new Date(); 
         this.cliente = cliente; 
         this.valorNota =0.0;
         this.items = new Array<ItemNotaFiscal>();
-        
+
 
     }
 

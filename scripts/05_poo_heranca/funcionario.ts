@@ -6,9 +6,9 @@
 
 export abstract class Funcionario {
 
-    primeiroNome : string;
-    ultimoNome : string;
-    salario: number;
+    protected primeiroNome : string;
+    protected ultimoNome : string;
+    protected salario: number;
     
     constructor (primeiroNome: string, ultimoNome: string, salario: number) {
         this.primeiroNome = primeiroNome;

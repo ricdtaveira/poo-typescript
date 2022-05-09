@@ -5,10 +5,10 @@
 export class Produto {
 
     /* Atributos */
-    id: number;
-    codigo : number; 
-    descricao: string;
-    valorUnitario : number;    
+    private id: number;
+    private codigo : number; 
+    private descricao: string;
+    private valorUnitario : number;    
 
     /* Métodos */
 
