@@ -11,16 +11,21 @@ export class ItemNotaFiscal {
     sequencial: number; 
     quantidade: number;
     produto : Produto;
-    valor: number;    
+    valorUnitario: number;    
 
     /* Métodos */
 
     /* Método Construtor */    
-    constructor (id : number, sequencial: number, quantidade: number, produto: Produto) {
+    constructor (id : number, 
+                 sequencial: number, 
+                 quantidade: number, 
+                 produto: Produto, 
+                 valorUnitario: number) {
         this.id = id;
         this.sequencial = sequencial;
         this.quantidade = quantidade;
         this.produto = produto; 
+        this.valorUnitario = valorUnitario;
     }
 
     /* Métodos Acessores */
@@ -37,16 +42,12 @@ export class ItemNotaFiscal {
     }
 
     getvalorUnitario(): number {
-        return this.valor;
+        return this.valorUnitario;
     }
 
         /* Métodos Modificadores */     
     setsequencial(sequencial: number): void {
         this.sequencial = sequencial;
-    }
-
-    setcodigo(codigo: number): void {
-        this.codigo = codigo;
     }
 
     setvalorUnitario(valorUnitario: number): void {

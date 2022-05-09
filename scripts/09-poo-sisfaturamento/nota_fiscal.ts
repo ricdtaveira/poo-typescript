@@ -22,6 +22,10 @@ export class NotaFiscal {
         this.codigo = codigo;
         this.data = data;
         this.cliente = cliente; 
+        this.valorNota =0.0;
+        this.items = new Array<ItemNotaFiscal>();
+        
+
     }
 
     /* Métodos Acessores */
