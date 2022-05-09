@@ -9,7 +9,7 @@ var ItemNotaFiscal = /** @class */ (function () {
         this.sequencial = sequencial;
         this.quantidade = quantidade;
         this.produto = produto;
-        this.valorUnitario = valorUnitario;
+        this.valor = 0.0;
     }
     /* Métodos Acessores */
     ItemNotaFiscal.prototype.getid = function () {
@@ -21,15 +21,18 @@ var ItemNotaFiscal = /** @class */ (function () {
     ItemNotaFiscal.prototype.getquantidade = function () {
         return this.quantidade;
     };
-    ItemNotaFiscal.prototype.getvalorUnitario = function () {
-        return this.valorUnitario;
+    ItemNotaFiscal.prototype.getproduto = function () {
+        return this.produto;
+    };
+    ItemNotaFiscal.prototype.getvalor = function () {
+        return this.valor;
     };
     /* Métodos Modificadores */
     ItemNotaFiscal.prototype.setsequencial = function (sequencial) {
         this.sequencial = sequencial;
     };
-    ItemNotaFiscal.prototype.setvalorUnitario = function (valorUnitario) {
-        this.valorUnitario = valorUnitario;
+    ItemNotaFiscal.prototype.valorItemNotaFiscal = function () {
+        this.valor = this.getproduto().getvalorUnitario();
     };
     return ItemNotaFiscal;
 }());

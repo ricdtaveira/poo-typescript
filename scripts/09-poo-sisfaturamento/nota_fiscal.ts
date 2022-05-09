@@ -56,11 +56,19 @@ export class NotaFiscal {
          this.items.push(item);
     }
 
+    // Percorrer o array items e calcular o valor total da NotaFiscal
     calcularValorNotaFiscal() : number {
         let valorCalculado = 0;
 
 
         return valorCalculado;
+
+    }
+
+    // Imprimir a NotaFiscal conforme o Layout definido
+    
+    imprimirNotaFiscal(): void {
+
 
     }
 

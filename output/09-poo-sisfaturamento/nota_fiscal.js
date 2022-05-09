@@ -32,9 +32,13 @@ var NotaFiscal = /** @class */ (function () {
     NotaFiscal.prototype.adicionarItem = function (item) {
         this.items.push(item);
     };
+    // Percorrer o array items e calcular o valor total da NotaFiscal
     NotaFiscal.prototype.calcularValorNotaFiscal = function () {
         var valorCalculado = 0;
         return valorCalculado;
+    };
+    // Imprimir a NotaFiscal conforme o Layout definido
+    NotaFiscal.prototype.imprimirNotaFiscal = function () {
     };
     return NotaFiscal;
 }());

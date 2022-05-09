@@ -27,5 +27,21 @@ let p3 = new Produto(3, 300, "Farinha da Boa", 5.50);
 
 let nf = new NotaFiscal(1, 201, cliente);
 
-let itnf1 = new ItemNotaFiscal(1, 1, 10, p1, 10);
-let itnf2 = new ItemNotaFiscal(2, 2, 10, p2)
+let itnf1 = new ItemNotaFiscal(1, 1, 10, p1);
+let itnf2 = new ItemNotaFiscal(2, 2, 10, p2);
+let itnf3 = new ItemNotaFiscal(3, 3, 10, p3);
+
+itnf1.valorItemNotaFiscal();
+itnf2.valorItemNotaFiscal();
+itnf3.valorItemNotaFiscal();
+
+
+nf.adicionarItem(itnf1);
+nf.adicionarItem(itnf2);
+nf.adicionarItem(itnf3);
+
+console.log("=========================");
+console.log(nf);
+console.log("=========================");
+
+

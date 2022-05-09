@@ -23,6 +23,16 @@ var p1 = new produto_1.Produto(1, 150, "Arroz Tio Joao", 8.00);
 var p2 = new produto_1.Produto(2, 200, "Feijão Janjão", 7.00);
 var p3 = new produto_1.Produto(3, 300, "Farinha da Boa", 5.50);
 var nf = new nota_fiscal_1.NotaFiscal(1, 201, cliente);
-var itnf1 = new item_nota_fiscal_1.ItemNotaFiscal(1, 1, 10, p1, 10);
+var itnf1 = new item_nota_fiscal_1.ItemNotaFiscal(1, 1, 10, p1);
 var itnf2 = new item_nota_fiscal_1.ItemNotaFiscal(2, 2, 10, p2);
+var itnf3 = new item_nota_fiscal_1.ItemNotaFiscal(3, 3, 10, p3);
+itnf1.valorItemNotaFiscal();
+itnf2.valorItemNotaFiscal();
+itnf3.valorItemNotaFiscal();
+nf.adicionarItem(itnf1);
+nf.adicionarItem(itnf2);
+nf.adicionarItem(itnf3);
+console.log("=========================");
+console.log(nf);
+console.log("=========================");
 //# sourceMappingURL=main.js.map
