@@ -9,7 +9,7 @@ var tipo_cliente_1 = require("./tipo_cliente");
 var produto_1 = require("./produto");
 var nota_fiscal_1 = require("./nota_fiscal");
 var item_nota_fiscal_1 = require("./item_nota_fiscal");
-//Criar um Cliente 
+//Criar uma instancia da classe Cliente 
 var cliente = new cliente_1.Cliente(1, "José Maria da Silva", 100, "200.345.987-11", tipo_cliente_1.TipoCliente.PESSOA_FISICA);
 console.log("=========================");
 console.log(cliente);
@@ -29,6 +29,11 @@ var itnf3 = new item_nota_fiscal_1.ItemNotaFiscal(3, 3, 10, p3);
 itnf1.valorItemNotaFiscal();
 itnf2.valorItemNotaFiscal();
 itnf3.valorItemNotaFiscal();
+console.log("=========================");
+console.log(itnf1.getproduto().getdescricao());
+console.log(itnf2.getproduto().getdescricao());
+console.log(itnf3.getproduto().getdescricao());
+console.log("=========================");
 nf.adicionarItem(itnf1);
 nf.adicionarItem(itnf2);
 nf.adicionarItem(itnf3);

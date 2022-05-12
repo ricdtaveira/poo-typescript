@@ -32,7 +32,7 @@ var ItemNotaFiscal = /** @class */ (function () {
         this.sequencial = sequencial;
     };
     ItemNotaFiscal.prototype.valorItemNotaFiscal = function () {
-        this.valor = this.getproduto().getvalorUnitario();
+        this.valor = this.getproduto().getvalorUnitario() * this.quantidade;
     };
     return ItemNotaFiscal;
 }());
