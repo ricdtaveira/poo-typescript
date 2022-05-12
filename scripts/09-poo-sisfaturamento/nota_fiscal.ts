@@ -60,9 +60,7 @@ export class NotaFiscal {
     calcularValorNotaFiscal() : number {
         let valorCalculado = 0;
 
-
         return valorCalculado;
-
     }
 
     // Imprimir a NotaFiscal conforme o Layout definido

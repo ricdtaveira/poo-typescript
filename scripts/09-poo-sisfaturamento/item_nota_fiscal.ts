@@ -56,7 +56,7 @@ export class ItemNotaFiscal {
 
     
     valorItemNotaFiscal() : void {
-        this.valor = this.getproduto().getvalorUnitario();
+        this.valor = this.getproduto().getvalorUnitario() * this.quantidade;
     }
     
 }

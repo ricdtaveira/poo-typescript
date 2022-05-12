@@ -9,7 +9,7 @@ import {Produto} from "./produto"
 import {NotaFiscal} from "./nota_fiscal"
 import {ItemNotaFiscal} from "./item_nota_fiscal"
 
-//Criar um Cliente 
+//Criar uma instancia da classe Cliente 
 
 let cliente = new Cliente(1, "José Maria da Silva", 100, "200.345.987-11",TipoCliente.PESSOA_FISICA);
 console.log("=========================");
@@ -35,6 +35,11 @@ itnf1.valorItemNotaFiscal();
 itnf2.valorItemNotaFiscal();
 itnf3.valorItemNotaFiscal();
 
+console.log("=========================");
+console.log(itnf1.getproduto().getdescricao());
+console.log(itnf2.getproduto().getdescricao());
+console.log(itnf3.getproduto().getdescricao());
+console.log("=========================");
 
 nf.adicionarItem(itnf1);
 nf.adicionarItem(itnf2);
